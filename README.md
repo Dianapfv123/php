@@ -1,4 +1,6 @@
 # codigo que verifica la conexion
+
+
 <?php
 $servername = "localhost";
 $username = "root";

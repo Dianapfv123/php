@@ -1,1 +1,13 @@
-# php
+# codigo que verifica la conexion
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "Alumnos";
+
+$conn = new mysqli($servername, $username, $password, $database);
+
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
+}
+?>
